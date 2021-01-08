@@ -1,0 +1,146 @@
+/*module2_solution_by_manoj.css*/
+	
+*{
+		box-sizing: border-box;
+		margin: 0px;
+	}
+
+/*Base layout*/
+#base {
+	position: relative;
+}
+
+	.topic {
+
+		width: 80%;
+		margin-left:10%;
+		margin-right: 10%;
+		margin-top: 110px;
+		margin-bottom: 30px;
+		padding-top: 6px;
+		height: 30px;
+		text-align: center;
+		color: white;
+		font-family: arial;
+		background: linear-gradient(to top, #cc3300 0%, #cc0000 100%);
+	}
+
+	.box{
+		width: 85px;
+		height: 25px;
+		background-color: white;
+		font-family: Arial;
+		position: absolute;
+		top:0px;
+		right:0px;
+		text-align: center;
+		padding-top: 3px;
+	}
+
+
+	.Chicken {
+		width: 80%;
+		margin-left: 10%;
+		margin-right: 10%;
+		margin-top: 20px;
+		float: left;
+		font-family: calibri;
+		font-weight: bold;
+		border:1px solid orange;
+		position: relative;
+		padding: 30px 5px 5px 10px;
+		background: linear-gradient(to bottom, #ffcc99 0%, #ff9966 100%);
+	}
+
+	.Beef {
+		width: 80%;
+		margin-left: 10%;
+		margin-right: 10%;
+		margin-top: 20px;
+		float: left;
+		font-family: calibri;
+		font-weight: bold;
+		border:1px solid red;
+		position: relative;
+		padding: 30px 5px 5px 10px;
+		background: linear-gradient(to bottom, #ffcc99 0%, #ff5050 100%);
+	}
+
+	.Sushi {
+		width: 80%;
+		margin-left: 10%;
+		margin-right: 10%;
+		margin-top: 20px;
+		float: left;
+		font-family: calibri;
+		font-weight: bold;
+		border:1px solid orange;
+		position: relative;
+		padding: 30px 5px 5px 10px;
+		background: linear-gradient(to bottom, #ffff99 0%, #ffcc66 100%);
+	}
+
+
+
+/*media devices only*/
+@media (min-width:768px) and (max-width: 991px) {
+
+	.Chicken {
+		width: 38%;
+		margin-left: 10%;
+		margin-right: 2%;
+		margin-top: 4%;
+		float: left;
+		position: relative;
+	}
+
+	.Beef {
+		width: 38%;
+		margin-left: 2%;
+		margin-right: 10%;
+		margin-top: 4%;
+		float: left;
+		position: relative;
+		
+	}
+	.Sushi {
+		width:80%;
+		margin-left: 10%;
+		margin-right:10%;
+		margin-top: 4%;
+		float: left;
+		position: relative;
+	}
+}
+
+
+/*Large devices only*/
+@media (min-width: 992px) {
+	
+	.Chicken {
+		width: 24%;
+		margin-left: 10%;
+		margin-right: 2%;
+		margin-top: 4%;
+		float: left;
+		position: relative;
+		
+	}
+
+	.Beef {
+		width: 24%;
+		margin-left: 2%;
+		margin-right: 2%;
+		margin-top: 4%;
+		float: left;
+		position: relative;
+	}
+
+	.Sushi {
+		width: 24%;
+		margin-left: 2%;
+		margin-right: 2%;
+		margin-top: 4%;
+		float: left;
+		position: relative;
+	}
